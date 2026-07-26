@@ -1,8 +1,27 @@
 aid: dapperlabs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dapperlabs.png
 name: Dapperlabs
-description: 'Dapperlabs is a company surfaced as a portfolio company of bond-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Dapper Labs is a Vancouver-based blockchain company (originally spun out of
+  Axiom Zen) that builds consumer crypto and NFT experiences and the developer
+  platform behind them. It created the Flow blockchain, CryptoKitties, and the
+  Dapper Wallet, and operates licensed digital-collectible marketplaces
+  including NBA Top Shot, NFL All Day, LaLiga Golazos, UFC Strike, and Disney
+  Pinnacle. Its developer surface ("Dapper Core") exposes Cadence smart
+  contracts, the Dapper Wallet / Dapper Connect authentication flow, and Flow
+  blockchain SDKs so third parties can build on top of Dapper's collectibles and
+  on-chain assets rather than through a traditional REST/OpenAPI API.
 url: https://raw.githubusercontent.com/api-evangelist/dapperlabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto
+- Blockchain
+- NFT
+- Digital Collectibles
+- Wallet
+- Flow
+- Smart Contracts
+- Gaming
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://dapperlabs.com
+  url: https://www.dapperlabs.com
+- type: DeveloperPortal
+  url: https://developers.dapperlabs.com/
+- type: Documentation
+  url: https://developers.dapperlabs.com/Introduction
+- type: GettingStarted
+  url: https://developers.dapperlabs.com/Introduction
+- type: GitHubOrganization
+  url: https://github.com/dapperlabs
+- type: Support
+  url: https://discord.com/invite/dapper
+- type: Packages
+  url: packages/dapperlabs-packages.yml
+- type: SDKs
+  url: packages/dapperlabs-packages.yml
+- type: WellKnown
+  url: well-known/dapperlabs-well-known.yml
+- type: DomainSecurity
+  url: security/dapperlabs-domain-security.yml
+- type: LLMsTxt
+  url: llms/dapperlabs-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

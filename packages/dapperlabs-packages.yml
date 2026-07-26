@@ -1,0 +1,45 @@
+generated: '2026-07-18'
+method: derived
+source: https://github.com/dapperlabs
+notes: >-
+  Dapper Labs' developer surface ("Dapper Core") is smart-contract and
+  blockchain based (Cadence on the Flow blockchain) rather than a REST/OpenAPI
+  API, so there is no first-party HTTP client SDK. The first-party developer
+  libraries below are published from the github.com/dapperlabs organization.
+  The Flow blockchain SDKs (e.g. @onflow/fcl) are maintained by the separate
+  Flow Foundation / onflow organization and are therefore NOT marked official
+  here. Registry npm package "dappauth" publishes from a different org
+  (dappkit), so its first-party status is not confirmed.
+packages:
+  - language: javascript
+    registry: github
+    name: dappauth.js
+    url: https://github.com/dapperlabs/dappauth.js
+    official: true
+    description: >-
+      First-party JavaScript library implementing ERC-1654 / ERC-1271 smart
+      contract authentication ("dapp auth") for verifying wallet signatures.
+  - language: solidity
+    registry: github
+    name: dapper-contracts
+    url: https://github.com/dapperlabs/dapper-contracts
+    official: true
+    description: Smart contract implementation for the Dapper platform / Dapper Wallet.
+  - language: cadence
+    registry: github
+    name: nba-smart-contracts
+    url: https://github.com/dapperlabs/nba-smart-contracts
+    official: true
+    description: >-
+      Cadence smart contracts and transactions for NBA Top Shot, the official
+      NBA digital-collectibles game on the Flow blockchain.
+related_third_party:
+  - language: javascript
+    registry: npm
+    name: "@onflow/fcl"
+    url: https://www.npmjs.com/package/@onflow/fcl
+    official: false
+    description: >-
+      Flow Client Library — the high-level JS/TS SDK used to build on the Flow
+      blockchain that underlies Dapper products. Maintained by the onflow (Flow
+      Foundation) organization, not Dapper Labs.

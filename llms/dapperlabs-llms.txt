@@ -1,0 +1,32 @@
+# Dapper Labs
+
+> Dapper Labs is a Vancouver-based blockchain company (spun out of Axiom Zen) that builds consumer crypto and NFT experiences and the "Dapper Core" developer platform behind them. It created the Flow blockchain, CryptoKitties, and the Dapper Wallet, and operates licensed digital-collectible marketplaces including NBA Top Shot, NFL All Day, LaLiga Golazos, UFC Strike, and Disney Pinnacle. Its developer surface exposes Cadence smart contracts, the Dapper Wallet / Dapper Connect authentication flow, and Flow blockchain SDKs rather than a traditional REST API.
+
+## Developer
+- [Dapper Core developer portal](https://developers.dapperlabs.com/): entry point to build on Dapper's smart contracts and protocols
+- [Introduction / Getting Started](https://developers.dapperlabs.com/Introduction): onboarding and Flow developer onboarding guide
+- [NBA Top Shot developers](https://developers.nbatopshot.com/): build experiences on NBA Top Shot collectibles
+- [Dapper Wallet developers](https://meetdapper.com/developers): Dapper Wallet / Dapper Connect integration
+- [Flow blockchain developers](https://developers.flow.com/): underlying blockchain SDKs and docs
+
+## Products
+- [Flow](https://flow.com): open, developer-friendly blockchain network
+- [NBA Top Shot](https://nbatopshot.com): officially licensed NBA digital collectibles
+- [NFL ALL DAY](https://nflallday.com): officially licensed NFL digital collectibles
+- [Disney Pinnacle](https://disneypinnacle.com): Disney digital pins
+- [CryptoKitties](https://cryptokitties.co): the original blockchain collectibles game
+- [Dapper Wallet](https://meetdapper.com): consumer non-custodial wallet
+
+## Source
+- [GitHub organization](https://github.com/dapperlabs): first-party smart contracts and developer libraries (dappauth.js, dapper-contracts, nba-smart-contracts)
+- [Company site](https://www.dapperlabs.com): corporate site
+- [Careers](https://www.dapperlabs.com/careers)
+
+## Community
+- [Discord](https://discord.com/invite/dapper)
+- [Twitter/X @dapperlabs](https://twitter.com/dapperlabs)
+
+## Artifacts (API Evangelist)
+- [Packages](https://raw.githubusercontent.com/api-evangelist/dapperlabs/refs/heads/main/packages/dapperlabs-packages.yml)
+- [Well-Known index](https://raw.githubusercontent.com/api-evangelist/dapperlabs/refs/heads/main/well-known/dapperlabs-well-known.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/dapperlabs/refs/heads/main/security/dapperlabs-domain-security.yml)
